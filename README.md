@@ -2,3 +2,4 @@
  - 6 layers, 12 attention heads and 384 hidden with whole word masking
  - Pre-tokenize using [underthesea word_tokenize](https://github.com/undertheseanlp/underthesea)
  - Using [Vietnews](https://github.com/ThanhChinhBK/vietnews) train dataset  and first 3gb of [vi Oscar-corpus](https://oscar-corpus.com/post/oscar-2019/).
+ - Pretrained models is now available on [huggingface](https://huggingface.co/Zayt/viRoberta-l6-h384-word-cased)
