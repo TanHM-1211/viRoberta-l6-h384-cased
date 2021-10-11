@@ -108,11 +108,6 @@ class DataCollatorForWholeWordMask(DataCollatorForLanguageModeling):
         'mask_labels' means we use whole word mask (wwm), we directly mask idxs according to it's ref.
         """
         import torch
-
-        if self.tokenizer.mask_token is None:
-            raise ValueError(
-                "This tokenizer does not have a mask token which is necessary for masked language modeling. Remove the --mlm flag if you want to use this tokenizer."
-            )
         labels = inputs.clone()
         # We sample a few tokens in each sequence for masked-LM training (with probability args.mlm_probability defaults to 0.15 in Bert/RoBERTa)
 

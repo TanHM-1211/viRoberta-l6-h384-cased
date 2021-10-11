@@ -25,7 +25,6 @@ def split_and_tokenize_oscar(from_file='data/oscar_text-3g.txt', to_dir='data/os
             file_name = os.path.join(to_dir, name_template.format(i))
             with open(file_name, 'w', encoding='utf8') as f2w:
                 f2w.write(content2w)
-            
             i += 1
 
 
