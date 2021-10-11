@@ -1,5 +1,5 @@
 """
-Scripts from https://github.com/huggingface/transformers/blob/master/examples/pytorch/language-modeling/run_mlm.py
+Scripts is modified from https://github.com/huggingface/transformers/blob/master/examples/pytorch/language-modeling/run_mlm.py
 """
 # You can also adapt this script on your own masked language modeling task. Pointers for this are left as comments.
 import os
